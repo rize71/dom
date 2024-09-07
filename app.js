@@ -23,7 +23,3 @@ function GenerateColor() {
 
   return `rgb(${red}, ${green}, ${blue})`;
 }
-
-// collect all nessesary reference
-
-// handle the click event

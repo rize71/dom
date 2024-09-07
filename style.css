@@ -44,7 +44,32 @@ button:hover {
 }
 
 h1 {
-  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
-    1px 1px 0 #fff;
   text-align: center;
+  font-family: "open sans";
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 0.5rem 0;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    text-align: center;
+  }
+
+  nav ul li {
+    margin: 0.5rem 0;
+  }
 }
